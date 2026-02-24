@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"Space Rocks",
+  "%Name":"spacerocks1",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -32,7 +32,7 @@
   "MetaData":{
     "IDEVersion":"2024.11.0.179",
   },
-  "name":"Space Rocks",
+  "name":"spacerocks1",
   "resources":[
     {"id":{"name":"LINK_TO_TUTORIALS","path":"notes/LINK_TO_TUTORIALS/LINK_TO_TUTORIALS.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
