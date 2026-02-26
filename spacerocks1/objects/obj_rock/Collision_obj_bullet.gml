@@ -7,6 +7,7 @@ direction = random(360);
 
 if sprite_index == spr_rock_big
 {
+	obj_game.points += 1
 	sprite_index = spr_rock_small;
 	instance_copy(true);
 	
