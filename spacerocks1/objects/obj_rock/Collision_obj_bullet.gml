@@ -1,4 +1,4 @@
-audio_play_sound(snd_hit, 0, false, 1, 0, random_range(0.6, 1.1));
+pitch_add = 0
 
 obj_game.points += 25
 
@@ -9,6 +9,7 @@ direction = random(360);
 
 if sprite_index == spr_rock_big
 {
+	pitch_add -= 0.5
 	obj_game.points += 25
 	sprite_index = spr_rock_small;
 	instance_copy(true);
@@ -24,3 +25,5 @@ else
 {
 	instance_destroy();
 }
+
+audio_play_sound(snd_hit, 0, false, 1, 0, random_range(0.9, 1.2) + pitch_add);
