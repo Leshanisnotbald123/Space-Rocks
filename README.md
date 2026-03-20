@@ -1,7 +1,7 @@
 # Space Rocks Project
 By - Leshan K.
 
-** Version 1 Release **
+**Version 1 Release**
 
 Features:
 * Working main menu
